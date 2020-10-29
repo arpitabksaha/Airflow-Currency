@@ -1,0 +1,16 @@
+[2020-10-29 14:49:14,755] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Currency.TransformLoad 2020-10-27T00:00:00+00:00 [queued]>
+[2020-10-29 14:49:14,763] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Currency.TransformLoad 2020-10-27T00:00:00+00:00 [queued]>
+[2020-10-29 14:49:14,763] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-29 14:49:14,763] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-10-29 14:49:14,763] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-29 14:49:14,769] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): TransformLoad> on 2020-10-27T00:00:00+00:00
+[2020-10-29 14:49:14,771] {standard_task_runner.py:54} INFO - Started process 6394 to run task
+[2020-10-29 14:49:14,798] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'Currency', 'TransformLoad', '2020-10-27T00:00:00+00:00', '--job_id', '294', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/currency.py', '--cfg_path', '/var/folders/4j/yctg8njd19g2873bfk914jqw0000gn/T/tmpjv4nxwvb']
+[2020-10-29 14:49:14,800] {standard_task_runner.py:78} INFO - Job 294: Subtask TransformLoad
+[2020-10-29 14:49:19,826] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: Currency.TransformLoad 2020-10-27T00:00:00+00:00 [running]> Arpitas-MacBook-Pro.local
+[2020-10-29 14:49:24,845] {base_hook.py:89} INFO - Using connection to: id: sqlite2. Host: /Users/arpitasaha/airflow/dags/db/DestinationDB.db, Port: None, Schema: /Users/arpitasaha/airflow/dags/db/DestinationDB.db, Login: None, Password: None, extra: None
+[2020-10-29 14:50:07,498] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-10-29 14:50:07,505] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=Currency, task_id=TransformLoad, execution_date=20201027T000000, start_date=20201029T091914, end_date=20201029T092007
+[2020-10-29 14:50:09,938] {local_task_job.py:102} INFO - Task exited with return code 0

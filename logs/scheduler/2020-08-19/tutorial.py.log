@@ -1,0 +1,150 @@
+[2020-08-19 11:59:13,962] {scheduler_job.py:155} INFO - Started process (PID=39553) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:18,970] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 11:59:18,972] {logging_mixin.py:112} INFO - [2020-08-19 11:59:18,971] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:18,973] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:18,973] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.011 seconds
+[2020-08-19 11:59:24,047] {scheduler_job.py:155} INFO - Started process (PID=39564) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:29,052] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 11:59:29,053] {logging_mixin.py:112} INFO - [2020-08-19 11:59:29,053] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:29,055] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:29,056] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.009 seconds
+[2020-08-19 11:59:34,142] {scheduler_job.py:155} INFO - Started process (PID=39575) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:39,151] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 11:59:39,152] {logging_mixin.py:112} INFO - [2020-08-19 11:59:39,152] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:39,153] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:39,154] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.012 seconds
+[2020-08-19 11:59:44,232] {scheduler_job.py:155} INFO - Started process (PID=39597) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:49,240] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 11:59:49,241] {logging_mixin.py:112} INFO - [2020-08-19 11:59:49,241] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:49,242] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:49,243] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.012 seconds
+[2020-08-19 11:59:54,330] {scheduler_job.py:155} INFO - Started process (PID=39639) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:59,335] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 11:59:59,336] {logging_mixin.py:112} INFO - [2020-08-19 11:59:59,336] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:59,337] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 11:59:59,338] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.008 seconds
+[2020-08-19 12:00:04,414] {scheduler_job.py:155} INFO - Started process (PID=39652) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:09,422] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:00:09,424] {logging_mixin.py:112} INFO - [2020-08-19 12:00:09,423] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:09,425] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:09,426] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.013 seconds
+[2020-08-19 12:00:14,496] {scheduler_job.py:155} INFO - Started process (PID=39662) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:19,503] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:00:19,505] {logging_mixin.py:112} INFO - [2020-08-19 12:00:19,504] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:19,509] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:19,510] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.014 seconds
+[2020-08-19 12:00:24,595] {scheduler_job.py:155} INFO - Started process (PID=39716) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:29,604] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:00:29,604] {logging_mixin.py:112} INFO - [2020-08-19 12:00:29,604] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:29,605] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:29,606] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.011 seconds
+[2020-08-19 12:00:34,689] {scheduler_job.py:155} INFO - Started process (PID=39727) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:39,701] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:00:39,702] {logging_mixin.py:112} INFO - [2020-08-19 12:00:39,702] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:39,704] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:39,712] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.024 seconds
+[2020-08-19 12:00:44,880] {scheduler_job.py:155} INFO - Started process (PID=39739) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:49,889] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:00:49,890] {logging_mixin.py:112} INFO - [2020-08-19 12:00:49,890] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:49,892] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:49,892] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.013 seconds
+[2020-08-19 12:00:54,974] {scheduler_job.py:155} INFO - Started process (PID=39750) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:59,980] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:00:59,981] {logging_mixin.py:112} INFO - [2020-08-19 12:00:59,981] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:59,982] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:00:59,983] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.009 seconds
+[2020-08-19 12:01:05,063] {scheduler_job.py:155} INFO - Started process (PID=39781) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:10,075] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:01:10,080] {logging_mixin.py:112} INFO - [2020-08-19 12:01:10,079] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:10,082] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:10,083] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.019 seconds
+[2020-08-19 12:01:15,168] {scheduler_job.py:155} INFO - Started process (PID=39788) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:20,182] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:01:20,183] {logging_mixin.py:112} INFO - [2020-08-19 12:01:20,183] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:20,185] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:20,188] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.020 seconds
+[2020-08-19 12:01:25,274] {scheduler_job.py:155} INFO - Started process (PID=39795) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:30,283] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:01:30,285] {logging_mixin.py:112} INFO - [2020-08-19 12:01:30,284] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:30,286] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:30,287] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.013 seconds
+[2020-08-19 12:01:35,365] {scheduler_job.py:155} INFO - Started process (PID=39802) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:40,373] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:01:40,374] {logging_mixin.py:112} INFO - [2020-08-19 12:01:40,374] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:40,376] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:40,377] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.012 seconds
+[2020-08-19 12:01:45,477] {scheduler_job.py:155} INFO - Started process (PID=39809) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:50,485] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:01:50,486] {logging_mixin.py:112} INFO - [2020-08-19 12:01:50,486] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:50,488] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:01:50,489] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.013 seconds
+[2020-08-19 12:01:55,576] {scheduler_job.py:155} INFO - Started process (PID=39840) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:00,586] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:02:00,589] {logging_mixin.py:112} INFO - [2020-08-19 12:02:00,588] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:00,592] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:00,593] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.017 seconds
+[2020-08-19 12:02:05,662] {scheduler_job.py:155} INFO - Started process (PID=39851) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:10,671] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:02:10,672] {logging_mixin.py:112} INFO - [2020-08-19 12:02:10,671] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:10,674] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:10,675] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.014 seconds
+[2020-08-19 12:02:15,746] {scheduler_job.py:155} INFO - Started process (PID=39862) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:20,756] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:02:20,757] {logging_mixin.py:112} INFO - [2020-08-19 12:02:20,757] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:20,758] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:20,759] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.013 seconds
+[2020-08-19 12:02:25,841] {scheduler_job.py:155} INFO - Started process (PID=39873) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:30,851] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:02:30,853] {logging_mixin.py:112} INFO - [2020-08-19 12:02:30,852] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:30,854] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:30,854] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.014 seconds
+[2020-08-19 12:02:36,030] {scheduler_job.py:155} INFO - Started process (PID=39884) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:41,042] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:02:41,042] {logging_mixin.py:112} INFO - [2020-08-19 12:02:41,042] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:41,043] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:41,044] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.014 seconds
+[2020-08-19 12:02:46,126] {scheduler_job.py:155} INFO - Started process (PID=39937) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:51,134] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:02:51,135] {logging_mixin.py:112} INFO - [2020-08-19 12:02:51,134] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:51,136] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:02:51,138] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.011 seconds
+[2020-08-19 12:02:56,212] {scheduler_job.py:155} INFO - Started process (PID=39948) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:01,223] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:03:01,224] {logging_mixin.py:112} INFO - [2020-08-19 12:03:01,224] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:01,225] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:01,225] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.014 seconds
+[2020-08-19 12:03:06,297] {scheduler_job.py:155} INFO - Started process (PID=39959) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:11,306] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:03:11,307] {logging_mixin.py:112} INFO - [2020-08-19 12:03:11,307] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:11,308] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:11,311] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.015 seconds
+[2020-08-19 12:03:16,374] {scheduler_job.py:155} INFO - Started process (PID=39970) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:21,382] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:03:21,382] {logging_mixin.py:112} INFO - [2020-08-19 12:03:21,382] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:21,383] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:21,384] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.011 seconds
+[2020-08-19 12:03:26,464] {scheduler_job.py:155} INFO - Started process (PID=39981) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:31,473] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:03:31,475] {logging_mixin.py:112} INFO - [2020-08-19 12:03:31,474] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:31,476] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:31,477] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.013 seconds
+[2020-08-19 12:03:36,565] {scheduler_job.py:155} INFO - Started process (PID=40012) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:41,576] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:03:41,580] {logging_mixin.py:112} INFO - [2020-08-19 12:03:41,578] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:41,581] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:41,582] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.016 seconds
+[2020-08-19 12:03:46,681] {scheduler_job.py:155} INFO - Started process (PID=40019) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:51,696] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:03:51,697] {logging_mixin.py:112} INFO - [2020-08-19 12:03:51,697] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:51,699] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:03:51,700] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.019 seconds
+[2020-08-19 12:03:56,802] {scheduler_job.py:155} INFO - Started process (PID=40026) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:04:01,811] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:04:01,812] {logging_mixin.py:112} INFO - [2020-08-19 12:04:01,812] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:04:01,813] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:04:01,813] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.011 seconds
+[2020-08-19 12:04:06,898] {scheduler_job.py:155} INFO - Started process (PID=40033) to work on /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:04:11,909] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/tutorial.py for tasks to queue
+[2020-08-19 12:04:11,911] {logging_mixin.py:112} INFO - [2020-08-19 12:04:11,910] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:04:11,912] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/tutorial.py
+[2020-08-19 12:04:11,912] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/tutorial.py took 5.014 seconds

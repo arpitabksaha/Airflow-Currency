@@ -1,0 +1,16 @@
+[2020-10-29 11:00:57,555] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: tutorial.TransformLoad 2020-10-29T05:16:43.319400+00:00 [queued]>
+[2020-10-29 11:00:57,567] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: tutorial.TransformLoad 2020-10-29T05:16:43.319400+00:00 [queued]>
+[2020-10-29 11:00:57,567] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-29 11:00:57,567] {taskinstance.py:881} INFO - Starting attempt 5 of 6
+[2020-10-29 11:00:57,567] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-29 11:00:57,575] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): TransformLoad> on 2020-10-29T05:16:43.319400+00:00
+[2020-10-29 11:00:57,578] {standard_task_runner.py:54} INFO - Started process 84029 to run task
+[2020-10-29 11:00:57,601] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'tutorial', 'TransformLoad', '2020-10-29T05:16:43.319400+00:00', '--job_id', '289', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/tutorial.py', '--cfg_path', '/var/folders/4j/yctg8njd19g2873bfk914jqw0000gn/T/tmp8u909caw']
+[2020-10-29 11:00:57,603] {standard_task_runner.py:78} INFO - Job 289: Subtask TransformLoad
+[2020-10-29 11:01:02,644] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: tutorial.TransformLoad 2020-10-29T05:16:43.319400+00:00 [running]> Arpitas-MacBook-Pro.local
+[2020-10-29 11:01:07,666] {base_hook.py:89} INFO - Using connection to: id: sqlite2. Host: /Users/arpitasaha/airflow/dags/db/DestinationDB.db, Port: None, Schema: /Users/arpitasaha/airflow/dags/db/DestinationDB.db, Login: None, Password: None, extra: None
+[2020-10-29 11:01:23,940] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-10-29 11:01:23,946] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=tutorial, task_id=TransformLoad, execution_date=20201029T051643, start_date=20201029T053057, end_date=20201029T053123
+[2020-10-29 11:01:27,675] {local_task_job.py:102} INFO - Task exited with return code 0

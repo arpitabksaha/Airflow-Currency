@@ -1,0 +1,150 @@
+[2020-08-19 11:59:19,001] {scheduler_job.py:155} INFO - Started process (PID=39556) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:24,007] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 11:59:24,008] {logging_mixin.py:112} INFO - [2020-08-19 11:59:24,008] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:24,009] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:24,010] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.009 seconds
+[2020-08-19 11:59:29,096] {scheduler_job.py:155} INFO - Started process (PID=39567) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:34,103] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 11:59:34,104] {logging_mixin.py:112} INFO - [2020-08-19 11:59:34,104] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:34,105] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:34,106] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.010 seconds
+[2020-08-19 11:59:39,188] {scheduler_job.py:155} INFO - Started process (PID=39578) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:44,195] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 11:59:44,197] {logging_mixin.py:112} INFO - [2020-08-19 11:59:44,196] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:44,198] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:44,198] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.011 seconds
+[2020-08-19 11:59:49,284] {scheduler_job.py:155} INFO - Started process (PID=39621) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:54,289] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 11:59:54,289] {logging_mixin.py:112} INFO - [2020-08-19 11:59:54,289] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:54,290] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 11:59:54,291] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.007 seconds
+[2020-08-19 11:59:59,369] {scheduler_job.py:155} INFO - Started process (PID=39642) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:04,376] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:00:04,377] {logging_mixin.py:112} INFO - [2020-08-19 12:00:04,377] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:04,378] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:04,378] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.009 seconds
+[2020-08-19 12:00:09,452] {scheduler_job.py:155} INFO - Started process (PID=39654) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:14,459] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:00:14,460] {logging_mixin.py:112} INFO - [2020-08-19 12:00:14,460] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:14,461] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:14,462] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.010 seconds
+[2020-08-19 12:00:19,548] {scheduler_job.py:155} INFO - Started process (PID=39698) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:24,556] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:00:24,558] {logging_mixin.py:112} INFO - [2020-08-19 12:00:24,558] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:24,559] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:24,560] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.012 seconds
+[2020-08-19 12:00:29,636] {scheduler_job.py:155} INFO - Started process (PID=39719) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:34,649] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:00:34,650] {logging_mixin.py:112} INFO - [2020-08-19 12:00:34,650] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:34,652] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:34,652] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.016 seconds
+[2020-08-19 12:00:39,827] {scheduler_job.py:155} INFO - Started process (PID=39730) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:44,839] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:00:44,840] {logging_mixin.py:112} INFO - [2020-08-19 12:00:44,840] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:44,841] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:44,842] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.015 seconds
+[2020-08-19 12:00:49,920] {scheduler_job.py:155} INFO - Started process (PID=39741) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:54,930] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:00:54,932] {logging_mixin.py:112} INFO - [2020-08-19 12:00:54,932] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:54,933] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:00:54,934] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.014 seconds
+[2020-08-19 12:01:00,016] {scheduler_job.py:155} INFO - Started process (PID=39776) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:05,025] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:01:05,026] {logging_mixin.py:112} INFO - [2020-08-19 12:01:05,025] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:05,027] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:05,027] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.012 seconds
+[2020-08-19 12:01:10,130] {scheduler_job.py:155} INFO - Started process (PID=39783) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:15,136] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:01:15,138] {logging_mixin.py:112} INFO - [2020-08-19 12:01:15,137] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:15,139] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:15,140] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.010 seconds
+[2020-08-19 12:01:20,222] {scheduler_job.py:155} INFO - Started process (PID=39790) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:25,231] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:01:25,233] {logging_mixin.py:112} INFO - [2020-08-19 12:01:25,232] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:25,236] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:25,240] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.018 seconds
+[2020-08-19 12:01:30,315] {scheduler_job.py:155} INFO - Started process (PID=39797) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:35,324] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:01:35,325] {logging_mixin.py:112} INFO - [2020-08-19 12:01:35,324] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:35,326] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:35,326] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.011 seconds
+[2020-08-19 12:01:40,414] {scheduler_job.py:155} INFO - Started process (PID=39804) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:45,425] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:01:45,427] {logging_mixin.py:112} INFO - [2020-08-19 12:01:45,426] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:45,428] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:45,429] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.015 seconds
+[2020-08-19 12:01:50,514] {scheduler_job.py:155} INFO - Started process (PID=39821) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:55,527] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:01:55,531] {logging_mixin.py:112} INFO - [2020-08-19 12:01:55,531] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:55,535] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:01:55,536] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.023 seconds
+[2020-08-19 12:02:00,611] {scheduler_job.py:155} INFO - Started process (PID=39842) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:05,620] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:02:05,622] {logging_mixin.py:112} INFO - [2020-08-19 12:02:05,621] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:05,624] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:05,625] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.014 seconds
+[2020-08-19 12:02:10,703] {scheduler_job.py:155} INFO - Started process (PID=39853) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:15,713] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:02:15,714] {logging_mixin.py:112} INFO - [2020-08-19 12:02:15,713] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:15,715] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:15,716] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.013 seconds
+[2020-08-19 12:02:20,790] {scheduler_job.py:155} INFO - Started process (PID=39864) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:25,801] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:02:25,802] {logging_mixin.py:112} INFO - [2020-08-19 12:02:25,802] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:25,804] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:25,805] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.014 seconds
+[2020-08-19 12:02:30,891] {scheduler_job.py:155} INFO - Started process (PID=39875) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:35,909] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:02:35,910] {logging_mixin.py:112} INFO - [2020-08-19 12:02:35,910] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:35,911] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:35,912] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.021 seconds
+[2020-08-19 12:02:41,073] {scheduler_job.py:155} INFO - Started process (PID=39918) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:46,080] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:02:46,081] {logging_mixin.py:112} INFO - [2020-08-19 12:02:46,081] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:46,083] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:46,084] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.011 seconds
+[2020-08-19 12:02:51,168] {scheduler_job.py:155} INFO - Started process (PID=39939) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:56,177] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:02:56,180] {logging_mixin.py:112} INFO - [2020-08-19 12:02:56,180] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:56,181] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:02:56,182] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.014 seconds
+[2020-08-19 12:03:01,250] {scheduler_job.py:155} INFO - Started process (PID=39950) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:06,261] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:03:06,262] {logging_mixin.py:112} INFO - [2020-08-19 12:03:06,261] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:06,263] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:06,263] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.013 seconds
+[2020-08-19 12:03:11,331] {scheduler_job.py:155} INFO - Started process (PID=39961) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:16,339] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:03:16,340] {logging_mixin.py:112} INFO - [2020-08-19 12:03:16,340] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:16,341] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:16,342] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.011 seconds
+[2020-08-19 12:03:21,414] {scheduler_job.py:155} INFO - Started process (PID=39972) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:26,423] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:03:26,425] {logging_mixin.py:112} INFO - [2020-08-19 12:03:26,424] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:26,426] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:26,427] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.013 seconds
+[2020-08-19 12:03:31,511] {scheduler_job.py:155} INFO - Started process (PID=39997) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:36,521] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:03:36,523] {logging_mixin.py:112} INFO - [2020-08-19 12:03:36,522] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:36,525] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:36,526] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.015 seconds
+[2020-08-19 12:03:41,608] {scheduler_job.py:155} INFO - Started process (PID=40014) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:46,616] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:03:46,617] {logging_mixin.py:112} INFO - [2020-08-19 12:03:46,617] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:46,618] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:46,622] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.014 seconds
+[2020-08-19 12:03:51,740] {scheduler_job.py:155} INFO - Started process (PID=40021) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:56,748] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:03:56,751] {logging_mixin.py:112} INFO - [2020-08-19 12:03:56,751] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:56,752] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:03:56,753] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.013 seconds
+[2020-08-19 12:04:01,847] {scheduler_job.py:155} INFO - Started process (PID=40028) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:04:06,857] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:04:06,857] {logging_mixin.py:112} INFO - [2020-08-19 12:04:06,857] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:04:06,859] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:04:06,860] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.013 seconds
+[2020-08-19 12:04:11,952] {scheduler_job.py:155} INFO - Started process (PID=40035) to work on /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:04:16,959] {scheduler_job.py:1571} INFO - Processing file /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx for tasks to queue
+[2020-08-19 12:04:16,960] {logging_mixin.py:112} INFO - [2020-08-19 12:04:16,960] {dagbag.py:396} INFO - Filling up the DagBag from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:04:16,962] {scheduler_job.py:1585} WARNING - No viable dags retrieved from /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx
+[2020-08-19 12:04:16,963] {scheduler_job.py:163} INFO - Processing /Users/arpitasaha/airflow/dags/MarketingLead_08042020.xlsx took 5.011 seconds

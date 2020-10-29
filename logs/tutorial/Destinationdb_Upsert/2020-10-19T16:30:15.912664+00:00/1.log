@@ -1,0 +1,624 @@
+[2020-10-19 22:22:17,734] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: tutorial.Destinationdb_Upsert 2020-10-19T16:30:15.912664+00:00 [queued]>
+[2020-10-19 22:22:17,742] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: tutorial.Destinationdb_Upsert 2020-10-19T16:30:15.912664+00:00 [queued]>
+[2020-10-19 22:22:17,742] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-19 22:22:17,742] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-10-19 22:22:17,742] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-19 22:22:17,747] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): Destinationdb_Upsert> on 2020-10-19T16:30:15.912664+00:00
+[2020-10-19 22:22:17,749] {standard_task_runner.py:54} INFO - Started process 18078 to run task
+[2020-10-19 22:22:17,772] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'tutorial', 'Destinationdb_Upsert', '2020-10-19T16:30:15.912664+00:00', '--job_id', '281', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/tutorial.py', '--cfg_path', '/var/folders/4j/yctg8njd19g2873bfk914jqw0000gn/T/tmpvor652wt']
+[2020-10-19 22:22:17,774] {standard_task_runner.py:78} INFO - Job 281: Subtask Destinationdb_Upsert
+[2020-10-19 22:22:17,798] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: tutorial.Destinationdb_Upsert 2020-10-19T16:30:15.912664+00:00 [running]> Arpitas-MacBook-Pro.local
+[2020-10-19 22:22:17,978] {logging_mixin.py:112} INFO - 65.13.154.17
+[2020-10-19 22:22:17,978] {logging_mixin.py:112} INFO - "Jeremy Russo"
+[2020-10-19 22:22:17,978] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,978] {logging_mixin.py:112} INFO - 204.125.214.133
+[2020-10-19 22:22:17,978] {logging_mixin.py:112} INFO - "James Gonzalez"
+[2020-10-19 22:22:17,979] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,979] {logging_mixin.py:112} INFO - 89.125.64.104
+[2020-10-19 22:22:17,979] {logging_mixin.py:112} INFO - "Cynthia Campos"
+[2020-10-19 22:22:17,979] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,979] {logging_mixin.py:112} INFO - 169.253.149.123
+[2020-10-19 22:22:17,980] {logging_mixin.py:112} INFO - "Michelle Mathis"
+[2020-10-19 22:22:17,980] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,980] {logging_mixin.py:112} INFO - 204.22.229.146
+[2020-10-19 22:22:17,980] {logging_mixin.py:112} INFO - "Kristine Wilkins"
+[2020-10-19 22:22:17,980] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,981] {logging_mixin.py:112} INFO - 154.239.224.227
+[2020-10-19 22:22:17,981] {logging_mixin.py:112} INFO - "Christopher Doyle"
+[2020-10-19 22:22:17,981] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,981] {logging_mixin.py:112} INFO - 106.24.95.108
+[2020-10-19 22:22:17,982] {logging_mixin.py:112} INFO - "Jennifer Russell"
+[2020-10-19 22:22:17,982] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,982] {logging_mixin.py:112} INFO - 33.203.178.76
+[2020-10-19 22:22:17,982] {logging_mixin.py:112} INFO - "Andrew Dyer"
+[2020-10-19 22:22:17,983] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,983] {logging_mixin.py:112} INFO - 139.139.228.104
+[2020-10-19 22:22:17,983] {logging_mixin.py:112} INFO - "Randy Ochoa"
+[2020-10-19 22:22:17,983] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,983] {logging_mixin.py:112} INFO - 124.72.156.214
+[2020-10-19 22:22:17,984] {logging_mixin.py:112} INFO - "Ashley Wyatt"
+[2020-10-19 22:22:17,984] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,984] {logging_mixin.py:112} INFO - 51.39.214.25
+[2020-10-19 22:22:17,984] {logging_mixin.py:112} INFO - "James Forbes"
+[2020-10-19 22:22:17,985] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,985] {logging_mixin.py:112} INFO - 161.129.80.82
+[2020-10-19 22:22:17,985] {logging_mixin.py:112} INFO - "Nicole Simmons"
+[2020-10-19 22:22:17,985] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,986] {logging_mixin.py:112} INFO - 191.98.206.52
+[2020-10-19 22:22:17,986] {logging_mixin.py:112} INFO - "Lisa Kim"
+[2020-10-19 22:22:17,986] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,986] {logging_mixin.py:112} INFO - 220.140.218.109
+[2020-10-19 22:22:17,986] {logging_mixin.py:112} INFO - "Kelly Fernandez"
+[2020-10-19 22:22:17,987] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,987] {logging_mixin.py:112} INFO - 152.217.140.99
+[2020-10-19 22:22:17,987] {logging_mixin.py:112} INFO - "Elizabeth Mcgee"
+[2020-10-19 22:22:17,987] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,988] {logging_mixin.py:112} INFO - 150.111.217.218
+[2020-10-19 22:22:17,988] {logging_mixin.py:112} INFO - "Christopher Mejia"
+[2020-10-19 22:22:17,988] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,988] {logging_mixin.py:112} INFO - 191.251.189.165
+[2020-10-19 22:22:17,988] {logging_mixin.py:112} INFO - "Tara Gilbert"
+[2020-10-19 22:22:17,989] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,989] {logging_mixin.py:112} INFO - 160.19.26.46
+[2020-10-19 22:22:17,989] {logging_mixin.py:112} INFO - "Zachary James"
+[2020-10-19 22:22:17,989] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,989] {logging_mixin.py:112} INFO - 17.39.245.60
+[2020-10-19 22:22:17,989] {logging_mixin.py:112} INFO - "Alicia Phillips"
+[2020-10-19 22:22:17,989] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,990] {logging_mixin.py:112} INFO - 30.124.134.222
+[2020-10-19 22:22:17,990] {logging_mixin.py:112} INFO - "Reginald Brown"
+[2020-10-19 22:22:17,990] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,990] {logging_mixin.py:112} INFO - 79.93.22.221
+[2020-10-19 22:22:17,990] {logging_mixin.py:112} INFO - "Monica Daniels"
+[2020-10-19 22:22:17,990] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,990] {logging_mixin.py:112} INFO - 84.200.176.53
+[2020-10-19 22:22:17,991] {logging_mixin.py:112} INFO - "Michael Cunningham"
+[2020-10-19 22:22:17,991] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,991] {logging_mixin.py:112} INFO - 54.34.207.194
+[2020-10-19 22:22:17,991] {logging_mixin.py:112} INFO - "Lauren Reed"
+[2020-10-19 22:22:17,991] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,991] {logging_mixin.py:112} INFO - 110.97.37.145
+[2020-10-19 22:22:17,991] {logging_mixin.py:112} INFO - "Whitney Perez"
+[2020-10-19 22:22:17,992] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,992] {logging_mixin.py:112} INFO - 163.182.132.1
+[2020-10-19 22:22:17,992] {logging_mixin.py:112} INFO - "Sherry Ruiz"
+[2020-10-19 22:22:17,992] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,992] {logging_mixin.py:112} INFO - 197.113.46.72
+[2020-10-19 22:22:17,992] {logging_mixin.py:112} INFO - "Eduardo Moss"
+[2020-10-19 22:22:17,992] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,992] {logging_mixin.py:112} INFO - 65.13.239.1
+[2020-10-19 22:22:17,993] {logging_mixin.py:112} INFO - "Martha Hartman"
+[2020-10-19 22:22:17,993] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,993] {logging_mixin.py:112} INFO - 110.13.12.203
+[2020-10-19 22:22:17,993] {logging_mixin.py:112} INFO - "Tara Pham"
+[2020-10-19 22:22:17,993] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,993] {logging_mixin.py:112} INFO - 182.187.24.5
+[2020-10-19 22:22:17,993] {logging_mixin.py:112} INFO - "Elizabeth Travis"
+[2020-10-19 22:22:17,994] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,994] {logging_mixin.py:112} INFO - 41.139.216.140
+[2020-10-19 22:22:17,994] {logging_mixin.py:112} INFO - "Angela Wilson"
+[2020-10-19 22:22:17,994] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,994] {logging_mixin.py:112} INFO - 185.143.37.191
+[2020-10-19 22:22:17,995] {logging_mixin.py:112} INFO - "Michael Maxwell"
+[2020-10-19 22:22:17,995] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,995] {logging_mixin.py:112} INFO - 125.108.205.122
+[2020-10-19 22:22:17,995] {logging_mixin.py:112} INFO - "Matthew Caldwell"
+[2020-10-19 22:22:17,996] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,996] {logging_mixin.py:112} INFO - 71.136.197.124
+[2020-10-19 22:22:17,996] {logging_mixin.py:112} INFO - "Monique Burton"
+[2020-10-19 22:22:17,996] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,996] {logging_mixin.py:112} INFO - 52.193.56.23
+[2020-10-19 22:22:17,997] {logging_mixin.py:112} INFO - "Elizabeth Schaefer"
+[2020-10-19 22:22:17,997] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,997] {logging_mixin.py:112} INFO - 222.250.87.203
+[2020-10-19 22:22:17,997] {logging_mixin.py:112} INFO - "Donna Rivera"
+[2020-10-19 22:22:17,997] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,998] {logging_mixin.py:112} INFO - 139.161.141.248
+[2020-10-19 22:22:17,998] {logging_mixin.py:112} INFO - "Ronald Hill"
+[2020-10-19 22:22:17,998] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,998] {logging_mixin.py:112} INFO - 171.147.164.186
+[2020-10-19 22:22:17,998] {logging_mixin.py:112} INFO - "Tyrone Rose"
+[2020-10-19 22:22:17,998] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,998] {logging_mixin.py:112} INFO - 175.248.51.3
+[2020-10-19 22:22:17,999] {logging_mixin.py:112} INFO - "Lauren Jordan"
+[2020-10-19 22:22:17,999] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,999] {logging_mixin.py:112} INFO - 45.225.220.53
+[2020-10-19 22:22:17,999] {logging_mixin.py:112} INFO - "Theresa Diaz"
+[2020-10-19 22:22:17,999] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:17,999] {logging_mixin.py:112} INFO - 129.153.4.4
+[2020-10-19 22:22:18,000] {logging_mixin.py:112} INFO - "Theresa Knight"
+[2020-10-19 22:22:18,000] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,000] {logging_mixin.py:112} INFO - 156.142.70.201
+[2020-10-19 22:22:18,000] {logging_mixin.py:112} INFO - "Raymond Williamson"
+[2020-10-19 22:22:18,000] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,000] {logging_mixin.py:112} INFO - 43.30.15.165
+[2020-10-19 22:22:18,000] {logging_mixin.py:112} INFO - "Courtney Hines"
+[2020-10-19 22:22:18,001] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,001] {logging_mixin.py:112} INFO - 133.21.63.117
+[2020-10-19 22:22:18,001] {logging_mixin.py:112} INFO - "Melissa Jackson"
+[2020-10-19 22:22:18,001] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,001] {logging_mixin.py:112} INFO - 43.236.115.116
+[2020-10-19 22:22:18,001] {logging_mixin.py:112} INFO - "Daniel Osborne"
+[2020-10-19 22:22:18,001] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,001] {logging_mixin.py:112} INFO - 150.153.144.102
+[2020-10-19 22:22:18,002] {logging_mixin.py:112} INFO - "Ms. Lorraine Singh DVM"
+[2020-10-19 22:22:18,002] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,002] {logging_mixin.py:112} INFO - 97.52.240.255
+[2020-10-19 22:22:18,002] {logging_mixin.py:112} INFO - "Megan Thompson"
+[2020-10-19 22:22:18,002] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,002] {logging_mixin.py:112} INFO - 43.67.247.62
+[2020-10-19 22:22:18,002] {logging_mixin.py:112} INFO - "Kevin Simon"
+[2020-10-19 22:22:18,003] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,003] {logging_mixin.py:112} INFO - 112.106.139.9
+[2020-10-19 22:22:18,003] {logging_mixin.py:112} INFO - "Erik Wong"
+[2020-10-19 22:22:18,003] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,003] {logging_mixin.py:112} INFO - 3.61.198.176
+[2020-10-19 22:22:18,003] {logging_mixin.py:112} INFO - "John Turner"
+[2020-10-19 22:22:18,003] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,004] {logging_mixin.py:112} INFO - 33.219.189.228
+[2020-10-19 22:22:18,004] {logging_mixin.py:112} INFO - "Scott Dudley"
+[2020-10-19 22:22:18,004] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,004] {logging_mixin.py:112} INFO - 163.41.181.237
+[2020-10-19 22:22:18,004] {logging_mixin.py:112} INFO - "Jacob Hamilton"
+[2020-10-19 22:22:18,005] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,005] {logging_mixin.py:112} INFO - 93.95.44.129
+[2020-10-19 22:22:18,005] {logging_mixin.py:112} INFO - "Rhonda Barber"
+[2020-10-19 22:22:18,005] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,005] {logging_mixin.py:112} INFO - 96.156.105.252
+[2020-10-19 22:22:18,005] {logging_mixin.py:112} INFO - "Krystal Jackson"
+[2020-10-19 22:22:18,006] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,006] {logging_mixin.py:112} INFO - 74.134.156.223
+[2020-10-19 22:22:18,006] {logging_mixin.py:112} INFO - "Barbara Smith"
+[2020-10-19 22:22:18,006] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,006] {logging_mixin.py:112} INFO - 107.218.147.149
+[2020-10-19 22:22:18,006] {logging_mixin.py:112} INFO - "Emily Reyes"
+[2020-10-19 22:22:18,006] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,007] {logging_mixin.py:112} INFO - 5.9.182.168
+[2020-10-19 22:22:18,007] {logging_mixin.py:112} INFO - "Aaron Larsen"
+[2020-10-19 22:22:18,007] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,007] {logging_mixin.py:112} INFO - 35.148.173.99
+[2020-10-19 22:22:18,007] {logging_mixin.py:112} INFO - "Wayne Garcia"
+[2020-10-19 22:22:18,007] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,007] {logging_mixin.py:112} INFO - 144.153.70.79
+[2020-10-19 22:22:18,008] {logging_mixin.py:112} INFO - "Christina Gray"
+[2020-10-19 22:22:18,008] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,008] {logging_mixin.py:112} INFO - 32.202.69.13
+[2020-10-19 22:22:18,008] {logging_mixin.py:112} INFO - "Mallory Edwards"
+[2020-10-19 22:22:18,008] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,008] {logging_mixin.py:112} INFO - 48.187.71.11
+[2020-10-19 22:22:18,008] {logging_mixin.py:112} INFO - "Jason Brown"
+[2020-10-19 22:22:18,008] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,009] {logging_mixin.py:112} INFO - 53.157.169.255
+[2020-10-19 22:22:18,009] {logging_mixin.py:112} INFO - "Todd Miller"
+[2020-10-19 22:22:18,009] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,009] {logging_mixin.py:112} INFO - 16.196.187.86
+[2020-10-19 22:22:18,009] {logging_mixin.py:112} INFO - "Victoria Peterson"
+[2020-10-19 22:22:18,009] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,009] {logging_mixin.py:112} INFO - 174.195.57.27
+[2020-10-19 22:22:18,010] {logging_mixin.py:112} INFO - "Gary Harrell"
+[2020-10-19 22:22:18,010] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,010] {logging_mixin.py:112} INFO - 113.41.153.37
+[2020-10-19 22:22:18,010] {logging_mixin.py:112} INFO - "Terry Callahan"
+[2020-10-19 22:22:18,010] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,010] {logging_mixin.py:112} INFO - 33.80.203.163
+[2020-10-19 22:22:18,010] {logging_mixin.py:112} INFO - "Karen Cline"
+[2020-10-19 22:22:18,011] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,011] {logging_mixin.py:112} INFO - 55.216.36.228
+[2020-10-19 22:22:18,011] {logging_mixin.py:112} INFO - "Kathleen Jones"
+[2020-10-19 22:22:18,011] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,011] {logging_mixin.py:112} INFO - 117.38.77.193
+[2020-10-19 22:22:18,011] {logging_mixin.py:112} INFO - "Andrew Martinez"
+[2020-10-19 22:22:18,011] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,012] {logging_mixin.py:112} INFO - 19.189.88.5
+[2020-10-19 22:22:18,012] {logging_mixin.py:112} INFO - "Melissa Lopez"
+[2020-10-19 22:22:18,012] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,012] {logging_mixin.py:112} INFO - 89.189.70.40
+[2020-10-19 22:22:18,012] {logging_mixin.py:112} INFO - "Rebecca Jones"
+[2020-10-19 22:22:18,012] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,012] {logging_mixin.py:112} INFO - 157.120.95.167
+[2020-10-19 22:22:18,013] {logging_mixin.py:112} INFO - "Randall Johnson"
+[2020-10-19 22:22:18,013] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,013] {logging_mixin.py:112} INFO - 205.3.236.74
+[2020-10-19 22:22:18,013] {logging_mixin.py:112} INFO - "Kevin Cooper"
+[2020-10-19 22:22:18,013] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,013] {logging_mixin.py:112} INFO - 55.167.164.145
+[2020-10-19 22:22:18,014] {logging_mixin.py:112} INFO - "Michael Castro"
+[2020-10-19 22:22:18,014] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,014] {logging_mixin.py:112} INFO - 81.191.127.10
+[2020-10-19 22:22:18,014] {logging_mixin.py:112} INFO - "Jeffrey Donovan"
+[2020-10-19 22:22:18,014] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,014] {logging_mixin.py:112} INFO - 28.158.198.181
+[2020-10-19 22:22:18,014] {logging_mixin.py:112} INFO - "Brian Clay"
+[2020-10-19 22:22:18,014] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,015] {logging_mixin.py:112} INFO - 135.57.56.171
+[2020-10-19 22:22:18,015] {logging_mixin.py:112} INFO - "Daniel Bradley"
+[2020-10-19 22:22:18,015] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,015] {logging_mixin.py:112} INFO - 73.133.124.244
+[2020-10-19 22:22:18,015] {logging_mixin.py:112} INFO - "Robert Harper"
+[2020-10-19 22:22:18,015] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,015] {logging_mixin.py:112} INFO - 174.236.249.135
+[2020-10-19 22:22:18,016] {logging_mixin.py:112} INFO - "William Martin"
+[2020-10-19 22:22:18,016] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,016] {logging_mixin.py:112} INFO - 208.63.124.203
+[2020-10-19 22:22:18,016] {logging_mixin.py:112} INFO - "John Fleming"
+[2020-10-19 22:22:18,016] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,016] {logging_mixin.py:112} INFO - 72.50.184.83
+[2020-10-19 22:22:18,016] {logging_mixin.py:112} INFO - "Amy Gonzalez"
+[2020-10-19 22:22:18,017] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,017] {logging_mixin.py:112} INFO - 183.124.61.179
+[2020-10-19 22:22:18,017] {logging_mixin.py:112} INFO - "Kevin Hernandez"
+[2020-10-19 22:22:18,017] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,017] {logging_mixin.py:112} INFO - 53.158.124.226
+[2020-10-19 22:22:18,017] {logging_mixin.py:112} INFO - "Melissa Barton"
+[2020-10-19 22:22:18,017] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,017] {logging_mixin.py:112} INFO - 174.101.145.148
+[2020-10-19 22:22:18,018] {logging_mixin.py:112} INFO - "Joseph Davis"
+[2020-10-19 22:22:18,018] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,018] {logging_mixin.py:112} INFO - 83.234.148.17
+[2020-10-19 22:22:18,018] {logging_mixin.py:112} INFO - "Sherri Pineda"
+[2020-10-19 22:22:18,018] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,018] {logging_mixin.py:112} INFO - 119.2.104.223
+[2020-10-19 22:22:18,018] {logging_mixin.py:112} INFO - "Kerry Davis"
+[2020-10-19 22:22:18,019] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,019] {logging_mixin.py:112} INFO - 162.1.101.146
+[2020-10-19 22:22:18,019] {logging_mixin.py:112} INFO - "Shannon Wright"
+[2020-10-19 22:22:18,019] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,019] {logging_mixin.py:112} INFO - 128.249.126.2
+[2020-10-19 22:22:18,019] {logging_mixin.py:112} INFO - "Kathleen Smith"
+[2020-10-19 22:22:18,019] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,020] {logging_mixin.py:112} INFO - 193.214.87.30
+[2020-10-19 22:22:18,020] {logging_mixin.py:112} INFO - "Jennifer Faulkner"
+[2020-10-19 22:22:18,020] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,020] {logging_mixin.py:112} INFO - 182.26.242.213
+[2020-10-19 22:22:18,020] {logging_mixin.py:112} INFO - "Jodi Morton"
+[2020-10-19 22:22:18,020] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,020] {logging_mixin.py:112} INFO - 54.46.13.124
+[2020-10-19 22:22:18,020] {logging_mixin.py:112} INFO - "Shane Berry"
+[2020-10-19 22:22:18,021] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,021] {logging_mixin.py:112} INFO - 199.146.244.203
+[2020-10-19 22:22:18,021] {logging_mixin.py:112} INFO - "Michele Mckenzie"
+[2020-10-19 22:22:18,021] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,021] {logging_mixin.py:112} INFO - 185.194.244.225
+[2020-10-19 22:22:18,021] {logging_mixin.py:112} INFO - "David Parrish"
+[2020-10-19 22:22:18,021] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:34 +0530]
+[2020-10-19 22:22:18,022] {logging_mixin.py:112} INFO - 14.138.180.241
+[2020-10-19 22:22:18,022] {logging_mixin.py:112} INFO - "Katrina Ramos"
+[2020-10-19 22:22:18,022] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:35 +0530]
+[2020-10-19 22:22:18,022] {logging_mixin.py:112} INFO - 196.45.116.106
+[2020-10-19 22:22:18,022] {logging_mixin.py:112} INFO - "Justin Adams"
+[2020-10-19 22:22:18,022] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:35 +0530]
+[2020-10-19 22:22:18,022] {logging_mixin.py:112} INFO - 144.123.250.72
+[2020-10-19 22:22:18,023] {logging_mixin.py:112} INFO - "William Pena"
+[2020-10-19 22:22:18,023] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:35 +0530]
+[2020-10-19 22:22:18,023] {logging_mixin.py:112} INFO - 146.140.38.221
+[2020-10-19 22:22:18,023] {logging_mixin.py:112} INFO - "Paul Mills"
+[2020-10-19 22:22:18,023] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:35 +0530]
+[2020-10-19 22:22:18,023] {logging_mixin.py:112} INFO - 47.52.27.195
+[2020-10-19 22:22:18,023] {logging_mixin.py:112} INFO - "Ashley Drake"
+[2020-10-19 22:22:18,023] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:35 +0530]
+[2020-10-19 22:22:18,024] {logging_mixin.py:112} INFO - 3.201.2.46
+[2020-10-19 22:22:18,024] {logging_mixin.py:112} INFO - "Timothy George"
+[2020-10-19 22:22:18,024] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:35 +0530]
+[2020-10-19 22:22:18,024] {logging_mixin.py:112} INFO - 36.85.3.240
+[2020-10-19 22:22:18,024] {logging_mixin.py:112} INFO - "Samantha Chapman"
+[2020-10-19 22:22:18,024] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:35 +0530]
+[2020-10-19 22:22:18,024] {logging_mixin.py:112} INFO - 5.233.110.49
+[2020-10-19 22:22:18,025] {logging_mixin.py:112} INFO - "Steven Thompson"
+[2020-10-19 22:22:18,025] {logging_mixin.py:112} INFO - [12/Aug/2020:13:38:35 +0530]
+[2020-10-19 22:22:18,025] {logging_mixin.py:112} INFO - 160.123.63.170
+[2020-10-19 22:22:18,025] {logging_mixin.py:112} INFO - "Annette West"
+[2020-10-19 22:22:18,025] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,025] {logging_mixin.py:112} INFO - 52.224.193.176
+[2020-10-19 22:22:18,025] {logging_mixin.py:112} INFO - "Nathan Burton"
+[2020-10-19 22:22:18,026] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,026] {logging_mixin.py:112} INFO - 175.194.181.130
+[2020-10-19 22:22:18,026] {logging_mixin.py:112} INFO - "Jose Simmons"
+[2020-10-19 22:22:18,026] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,026] {logging_mixin.py:112} INFO - 195.5.213.87
+[2020-10-19 22:22:18,027] {logging_mixin.py:112} INFO - "Anthony Reed"
+[2020-10-19 22:22:18,027] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,027] {logging_mixin.py:112} INFO - 126.179.154.187
+[2020-10-19 22:22:18,027] {logging_mixin.py:112} INFO - "Jason Hayes"
+[2020-10-19 22:22:18,027] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,027] {logging_mixin.py:112} INFO - 88.245.53.41
+[2020-10-19 22:22:18,027] {logging_mixin.py:112} INFO - "Joshua Johnson"
+[2020-10-19 22:22:18,028] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,028] {logging_mixin.py:112} INFO - 15.59.138.8
+[2020-10-19 22:22:18,028] {logging_mixin.py:112} INFO - "Catherine Murray"
+[2020-10-19 22:22:18,028] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,028] {logging_mixin.py:112} INFO - 123.24.218.99
+[2020-10-19 22:22:18,028] {logging_mixin.py:112} INFO - "Catherine Logan"
+[2020-10-19 22:22:18,028] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,029] {logging_mixin.py:112} INFO - 205.122.171.220
+[2020-10-19 22:22:18,029] {logging_mixin.py:112} INFO - "Destiny Henry"
+[2020-10-19 22:22:18,029] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,029] {logging_mixin.py:112} INFO - 146.7.102.168
+[2020-10-19 22:22:18,029] {logging_mixin.py:112} INFO - "James Jones"
+[2020-10-19 22:22:18,029] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,029] {logging_mixin.py:112} INFO - 22.7.196.20
+[2020-10-19 22:22:18,029] {logging_mixin.py:112} INFO - "Christina Mills"
+[2020-10-19 22:22:18,030] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,030] {logging_mixin.py:112} INFO - 55.247.238.199
+[2020-10-19 22:22:18,030] {logging_mixin.py:112} INFO - "Lacey Meadows"
+[2020-10-19 22:22:18,030] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,030] {logging_mixin.py:112} INFO - 63.87.52.199
+[2020-10-19 22:22:18,030] {logging_mixin.py:112} INFO - "Douglas Becker"
+[2020-10-19 22:22:18,030] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,031] {logging_mixin.py:112} INFO - 11.34.16.193
+[2020-10-19 22:22:18,031] {logging_mixin.py:112} INFO - "Christopher Bartlett Jr."
+[2020-10-19 22:22:18,031] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,031] {logging_mixin.py:112} INFO - 152.8.47.152
+[2020-10-19 22:22:18,031] {logging_mixin.py:112} INFO - "Mark Mitchell"
+[2020-10-19 22:22:18,031] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,031] {logging_mixin.py:112} INFO - 211.117.98.233
+[2020-10-19 22:22:18,032] {logging_mixin.py:112} INFO - "Janet Taylor"
+[2020-10-19 22:22:18,032] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,032] {logging_mixin.py:112} INFO - 100.11.114.33
+[2020-10-19 22:22:18,032] {logging_mixin.py:112} INFO - "Barry Ellis"
+[2020-10-19 22:22:18,032] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,032] {logging_mixin.py:112} INFO - 118.58.208.49
+[2020-10-19 22:22:18,032] {logging_mixin.py:112} INFO - "Teresa Jones"
+[2020-10-19 22:22:18,032] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,033] {logging_mixin.py:112} INFO - 50.249.117.102
+[2020-10-19 22:22:18,033] {logging_mixin.py:112} INFO - "Gary Hester"
+[2020-10-19 22:22:18,033] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,033] {logging_mixin.py:112} INFO - 181.72.64.234
+[2020-10-19 22:22:18,033] {logging_mixin.py:112} INFO - "Bryan Hatfield"
+[2020-10-19 22:22:18,033] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,033] {logging_mixin.py:112} INFO - 167.155.219.35
+[2020-10-19 22:22:18,034] {logging_mixin.py:112} INFO - "Tiffany Adams"
+[2020-10-19 22:22:18,034] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,034] {logging_mixin.py:112} INFO - 149.234.74.241
+[2020-10-19 22:22:18,034] {logging_mixin.py:112} INFO - "Angel Nichols"
+[2020-10-19 22:22:18,034] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,034] {logging_mixin.py:112} INFO - 205.25.158.203
+[2020-10-19 22:22:18,034] {logging_mixin.py:112} INFO - "Felicia Gomez"
+[2020-10-19 22:22:18,035] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,035] {logging_mixin.py:112} INFO - 137.35.22.116
+[2020-10-19 22:22:18,035] {logging_mixin.py:112} INFO - "Robert Montes"
+[2020-10-19 22:22:18,035] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,035] {logging_mixin.py:112} INFO - 74.144.176.15
+[2020-10-19 22:22:18,035] {logging_mixin.py:112} INFO - "James George"
+[2020-10-19 22:22:18,035] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,035] {logging_mixin.py:112} INFO - 64.116.20.158
+[2020-10-19 22:22:18,036] {logging_mixin.py:112} INFO - "Jasmine Williams"
+[2020-10-19 22:22:18,036] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,036] {logging_mixin.py:112} INFO - 81.103.88.228
+[2020-10-19 22:22:18,036] {logging_mixin.py:112} INFO - "Cheryl Gardner"
+[2020-10-19 22:22:18,036] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,036] {logging_mixin.py:112} INFO - 59.245.71.102
+[2020-10-19 22:22:18,036] {logging_mixin.py:112} INFO - "Ashley White"
+[2020-10-19 22:22:18,037] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,037] {logging_mixin.py:112} INFO - 100.131.64.59
+[2020-10-19 22:22:18,037] {logging_mixin.py:112} INFO - "Brittany Edwards"
+[2020-10-19 22:22:18,037] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,037] {logging_mixin.py:112} INFO - 151.93.53.208
+[2020-10-19 22:22:18,037] {logging_mixin.py:112} INFO - "Emily Hernandez"
+[2020-10-19 22:22:18,037] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,038] {logging_mixin.py:112} INFO - 187.115.15.7
+[2020-10-19 22:22:18,038] {logging_mixin.py:112} INFO - "Samantha Matthews"
+[2020-10-19 22:22:18,038] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,038] {logging_mixin.py:112} INFO - 220.71.62.213
+[2020-10-19 22:22:18,038] {logging_mixin.py:112} INFO - "Alex West"
+[2020-10-19 22:22:18,038] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,038] {logging_mixin.py:112} INFO - 188.254.147.217
+[2020-10-19 22:22:18,038] {logging_mixin.py:112} INFO - "John Copeland"
+[2020-10-19 22:22:18,039] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,039] {logging_mixin.py:112} INFO - 19.203.14.120
+[2020-10-19 22:22:18,039] {logging_mixin.py:112} INFO - "Anna Mathis"
+[2020-10-19 22:22:18,039] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,039] {logging_mixin.py:112} INFO - 35.96.166.107
+[2020-10-19 22:22:18,039] {logging_mixin.py:112} INFO - "Eric Blair"
+[2020-10-19 22:22:18,039] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,040] {logging_mixin.py:112} INFO - 30.160.138.125
+[2020-10-19 22:22:18,040] {logging_mixin.py:112} INFO - "Susan Welch"
+[2020-10-19 22:22:18,040] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,040] {logging_mixin.py:112} INFO - 154.90.207.97
+[2020-10-19 22:22:18,040] {logging_mixin.py:112} INFO - "Kevin Hill"
+[2020-10-19 22:22:18,040] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,040] {logging_mixin.py:112} INFO - 183.22.42.33
+[2020-10-19 22:22:18,041] {logging_mixin.py:112} INFO - "Emily Wallace"
+[2020-10-19 22:22:18,041] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,041] {logging_mixin.py:112} INFO - 15.29.159.27
+[2020-10-19 22:22:18,041] {logging_mixin.py:112} INFO - "Thomas Gonzalez"
+[2020-10-19 22:22:18,041] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,041] {logging_mixin.py:112} INFO - 30.26.118.244
+[2020-10-19 22:22:18,041] {logging_mixin.py:112} INFO - "Melanie Carney"
+[2020-10-19 22:22:18,041] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,042] {logging_mixin.py:112} INFO - 202.164.146.214
+[2020-10-19 22:22:18,042] {logging_mixin.py:112} INFO - "Barbara Brock"
+[2020-10-19 22:22:18,042] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,042] {logging_mixin.py:112} INFO - 215.145.46.73
+[2020-10-19 22:22:18,042] {logging_mixin.py:112} INFO - "Frank Williams"
+[2020-10-19 22:22:18,042] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,042] {logging_mixin.py:112} INFO - 20.70.144.118
+[2020-10-19 22:22:18,043] {logging_mixin.py:112} INFO - "Heidi Davis"
+[2020-10-19 22:22:18,043] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,043] {logging_mixin.py:112} INFO - 124.56.185.243
+[2020-10-19 22:22:18,043] {logging_mixin.py:112} INFO - "Christina Mitchell"
+[2020-10-19 22:22:18,043] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,043] {logging_mixin.py:112} INFO - 111.49.120.130
+[2020-10-19 22:22:18,043] {logging_mixin.py:112} INFO - "Angel Gibson"
+[2020-10-19 22:22:18,044] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,044] {logging_mixin.py:112} INFO - 210.44.72.241
+[2020-10-19 22:22:18,044] {logging_mixin.py:112} INFO - "Samantha Gordon"
+[2020-10-19 22:22:18,044] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,044] {logging_mixin.py:112} INFO - 145.208.28.239
+[2020-10-19 22:22:18,044] {logging_mixin.py:112} INFO - "Jeremy Ochoa"
+[2020-10-19 22:22:18,044] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,044] {logging_mixin.py:112} INFO - 45.187.48.14
+[2020-10-19 22:22:18,045] {logging_mixin.py:112} INFO - "Amanda Jenkins"
+[2020-10-19 22:22:18,045] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,045] {logging_mixin.py:112} INFO - 128.241.253.11
+[2020-10-19 22:22:18,045] {logging_mixin.py:112} INFO - "William Mcknight"
+[2020-10-19 22:22:18,045] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,045] {logging_mixin.py:112} INFO - 99.168.43.154
+[2020-10-19 22:22:18,045] {logging_mixin.py:112} INFO - "Lori Gonzalez"
+[2020-10-19 22:22:18,046] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,046] {logging_mixin.py:112} INFO - 196.120.151.94
+[2020-10-19 22:22:18,046] {logging_mixin.py:112} INFO - "Ernest Cox"
+[2020-10-19 22:22:18,046] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,046] {logging_mixin.py:112} INFO - 192.7.205.48
+[2020-10-19 22:22:18,046] {logging_mixin.py:112} INFO - "Nicole Harris"
+[2020-10-19 22:22:18,046] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,046] {logging_mixin.py:112} INFO - 138.223.35.213
+[2020-10-19 22:22:18,047] {logging_mixin.py:112} INFO - "Kimberly Miller"
+[2020-10-19 22:22:18,047] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,047] {logging_mixin.py:112} INFO - 1.108.131.153
+[2020-10-19 22:22:18,047] {logging_mixin.py:112} INFO - "Andre Carpenter"
+[2020-10-19 22:22:18,047] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,047] {logging_mixin.py:112} INFO - 63.64.244.151
+[2020-10-19 22:22:18,047] {logging_mixin.py:112} INFO - "Joseph Patrick"
+[2020-10-19 22:22:18,048] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,048] {logging_mixin.py:112} INFO - 144.47.251.249
+[2020-10-19 22:22:18,048] {logging_mixin.py:112} INFO - "Erika Ramirez"
+[2020-10-19 22:22:18,048] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,048] {logging_mixin.py:112} INFO - 26.136.202.15
+[2020-10-19 22:22:18,048] {logging_mixin.py:112} INFO - "Robert Strong"
+[2020-10-19 22:22:18,048] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,049] {logging_mixin.py:112} INFO - 177.103.84.18
+[2020-10-19 22:22:18,049] {logging_mixin.py:112} INFO - "Randy Campbell"
+[2020-10-19 22:22:18,049] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,049] {logging_mixin.py:112} INFO - 51.21.22.69
+[2020-10-19 22:22:18,049] {logging_mixin.py:112} INFO - "Jessica Vargas"
+[2020-10-19 22:22:18,049] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,049] {logging_mixin.py:112} INFO - 52.14.231.227
+[2020-10-19 22:22:18,049] {logging_mixin.py:112} INFO - "Gabriel Morrison"
+[2020-10-19 22:22:18,050] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,050] {logging_mixin.py:112} INFO - 53.90.88.176
+[2020-10-19 22:22:18,050] {logging_mixin.py:112} INFO - "Valerie Cruz"
+[2020-10-19 22:22:18,050] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,050] {logging_mixin.py:112} INFO - 73.215.40.10
+[2020-10-19 22:22:18,050] {logging_mixin.py:112} INFO - "Sandra Allen"
+[2020-10-19 22:22:18,050] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,051] {logging_mixin.py:112} INFO - 175.168.37.26
+[2020-10-19 22:22:18,051] {logging_mixin.py:112} INFO - "Michael Marshall"
+[2020-10-19 22:22:18,051] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,051] {logging_mixin.py:112} INFO - 49.183.43.164
+[2020-10-19 22:22:18,051] {logging_mixin.py:112} INFO - "Keith Campbell"
+[2020-10-19 22:22:18,051] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,051] {logging_mixin.py:112} INFO - 89.225.173.109
+[2020-10-19 22:22:18,052] {logging_mixin.py:112} INFO - "Lisa Rose"
+[2020-10-19 22:22:18,052] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,052] {logging_mixin.py:112} INFO - 132.10.4.120
+[2020-10-19 22:22:18,052] {logging_mixin.py:112} INFO - "Deanna Gould"
+[2020-10-19 22:22:18,052] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,052] {logging_mixin.py:112} INFO - 35.56.188.237
+[2020-10-19 22:22:18,052] {logging_mixin.py:112} INFO - "Jeremy Russell"
+[2020-10-19 22:22:18,053] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,053] {logging_mixin.py:112} INFO - 53.9.28.138
+[2020-10-19 22:22:18,053] {logging_mixin.py:112} INFO - "Jason Yoder"
+[2020-10-19 22:22:18,053] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,053] {logging_mixin.py:112} INFO - 157.110.119.248
+[2020-10-19 22:22:18,053] {logging_mixin.py:112} INFO - "Frank Ortega"
+[2020-10-19 22:22:18,053] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,054] {logging_mixin.py:112} INFO - 76.46.141.150
+[2020-10-19 22:22:18,054] {logging_mixin.py:112} INFO - "Ryan Pierce"
+[2020-10-19 22:22:18,054] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,054] {logging_mixin.py:112} INFO - 81.83.245.89
+[2020-10-19 22:22:18,054] {logging_mixin.py:112} INFO - "James Harris"
+[2020-10-19 22:22:18,054] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,054] {logging_mixin.py:112} INFO - 78.84.41.92
+[2020-10-19 22:22:18,054] {logging_mixin.py:112} INFO - "Kevin Bishop DDS"
+[2020-10-19 22:22:18,055] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,055] {logging_mixin.py:112} INFO - 125.198.88.1
+[2020-10-19 22:22:18,055] {logging_mixin.py:112} INFO - "Jennifer Arnold"
+[2020-10-19 22:22:18,055] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,055] {logging_mixin.py:112} INFO - 65.124.29.159
+[2020-10-19 22:22:18,055] {logging_mixin.py:112} INFO - "James Aguirre"
+[2020-10-19 22:22:18,055] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,056] {logging_mixin.py:112} INFO - 38.180.0.156
+[2020-10-19 22:22:18,056] {logging_mixin.py:112} INFO - "Tracy Hudson"
+[2020-10-19 22:22:18,056] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,056] {logging_mixin.py:112} INFO - 187.89.104.136
+[2020-10-19 22:22:18,056] {logging_mixin.py:112} INFO - "Dennis Sampson"
+[2020-10-19 22:22:18,056] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,056] {logging_mixin.py:112} INFO - 18.108.142.112
+[2020-10-19 22:22:18,057] {logging_mixin.py:112} INFO - "Matthew Zimmerman"
+[2020-10-19 22:22:18,057] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,057] {logging_mixin.py:112} INFO - 99.47.188.237
+[2020-10-19 22:22:18,057] {logging_mixin.py:112} INFO - "Megan Murphy"
+[2020-10-19 22:22:18,057] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,057] {logging_mixin.py:112} INFO - 70.210.82.48
+[2020-10-19 22:22:18,057] {logging_mixin.py:112} INFO - "Travis Swanson"
+[2020-10-19 22:22:18,057] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,058] {logging_mixin.py:112} INFO - 154.94.185.13
+[2020-10-19 22:22:18,058] {logging_mixin.py:112} INFO - "Kayla Miller"
+[2020-10-19 22:22:18,058] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,058] {logging_mixin.py:112} INFO - 161.6.46.168
+[2020-10-19 22:22:18,058] {logging_mixin.py:112} INFO - "Alec Tyler"
+[2020-10-19 22:22:18,058] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,058] {logging_mixin.py:112} INFO - 96.229.116.65
+[2020-10-19 22:22:18,059] {logging_mixin.py:112} INFO - "Regina Lopez"
+[2020-10-19 22:22:18,059] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,059] {logging_mixin.py:112} INFO - 194.206.64.78
+[2020-10-19 22:22:18,059] {logging_mixin.py:112} INFO - "Nathan Richardson"
+[2020-10-19 22:22:18,059] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,059] {logging_mixin.py:112} INFO - 126.193.161.57
+[2020-10-19 22:22:18,059] {logging_mixin.py:112} INFO - "Logan Case"
+[2020-10-19 22:22:18,060] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,060] {logging_mixin.py:112} INFO - 18.236.239.241
+[2020-10-19 22:22:18,060] {logging_mixin.py:112} INFO - "Angela Clarke"
+[2020-10-19 22:22:18,060] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,060] {logging_mixin.py:112} INFO - 118.255.42.171
+[2020-10-19 22:22:18,060] {logging_mixin.py:112} INFO - "Sheila Ross"
+[2020-10-19 22:22:18,060] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,060] {logging_mixin.py:112} INFO - 70.105.189.214
+[2020-10-19 22:22:18,061] {logging_mixin.py:112} INFO - "Jennifer Hernandez"
+[2020-10-19 22:22:18,061] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,061] {logging_mixin.py:112} INFO - 220.200.250.190
+[2020-10-19 22:22:18,061] {logging_mixin.py:112} INFO - "Nicole Decker DVM"
+[2020-10-19 22:22:18,061] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,061] {logging_mixin.py:112} INFO - 76.30.175.153
+[2020-10-19 22:22:18,061] {logging_mixin.py:112} INFO - "Ashley Johnson"
+[2020-10-19 22:22:18,062] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,062] {logging_mixin.py:112} INFO - 214.103.117.180
+[2020-10-19 22:22:18,062] {logging_mixin.py:112} INFO - "Kristen White"
+[2020-10-19 22:22:18,062] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,062] {logging_mixin.py:112} INFO - 114.32.188.156
+[2020-10-19 22:22:18,062] {logging_mixin.py:112} INFO - "Autumn Barnett"
+[2020-10-19 22:22:18,062] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,063] {logging_mixin.py:112} INFO - 180.165.106.96
+[2020-10-19 22:22:18,063] {logging_mixin.py:112} INFO - "Maria Rivera"
+[2020-10-19 22:22:18,063] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,063] {logging_mixin.py:112} INFO - 60.88.143.155
+[2020-10-19 22:22:18,063] {logging_mixin.py:112} INFO - "Whitney Clark"
+[2020-10-19 22:22:18,063] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,063] {logging_mixin.py:112} INFO - 53.189.110.240
+[2020-10-19 22:22:18,063] {logging_mixin.py:112} INFO - "Willie Lopez"
+[2020-10-19 22:22:18,064] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,064] {logging_mixin.py:112} INFO - 51.219.67.55
+[2020-10-19 22:22:18,064] {logging_mixin.py:112} INFO - "Christopher Thomas"
+[2020-10-19 22:22:18,064] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,064] {logging_mixin.py:112} INFO - 132.39.195.193
+[2020-10-19 22:22:18,064] {logging_mixin.py:112} INFO - "Michael Sampson"
+[2020-10-19 22:22:18,064] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,065] {logging_mixin.py:112} INFO - 60.200.146.55
+[2020-10-19 22:22:18,065] {logging_mixin.py:112} INFO - "John Nguyen"
+[2020-10-19 22:22:18,065] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,065] {logging_mixin.py:112} INFO - 162.128.126.61
+[2020-10-19 22:22:18,065] {logging_mixin.py:112} INFO - "Kathy Williams"
+[2020-10-19 22:22:18,065] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,065] {logging_mixin.py:112} INFO - 151.235.2.250
+[2020-10-19 22:22:18,066] {logging_mixin.py:112} INFO - "Michele Figueroa"
+[2020-10-19 22:22:18,066] {logging_mixin.py:112} INFO - [19/Oct/2020:22:10:57 +0530]
+[2020-10-19 22:22:18,074] {logging_mixin.py:112} INFO -             ClientIP              UserName                          Time
+0       65.13.154.17        "Jeremy Russo"  [12/Aug/2020:13:38:34 +0530]
+1    204.125.214.133      "James Gonzalez"  [12/Aug/2020:13:38:34 +0530]
+2      89.125.64.104      "Cynthia Campos"  [12/Aug/2020:13:38:34 +0530]
+3    169.253.149.123     "Michelle Mathis"  [12/Aug/2020:13:38:34 +0530]
+4     204.22.229.146    "Kristine Wilkins"  [12/Aug/2020:13:38:34 +0530]
+..               ...                   ...                           ...
+193     51.219.67.55  "Christopher Thomas"  [19/Oct/2020:22:10:57 +0530]
+194   132.39.195.193     "Michael Sampson"  [19/Oct/2020:22:10:57 +0530]
+195    60.200.146.55         "John Nguyen"  [19/Oct/2020:22:10:57 +0530]
+196   162.128.126.61      "Kathy Williams"  [19/Oct/2020:22:10:57 +0530]
+197    151.235.2.250    "Michele Figueroa"  [19/Oct/2020:22:10:57 +0530]
+
+[198 rows x 3 columns]
+[2020-10-19 22:22:18,084] {base_hook.py:89} INFO - Using connection to: id: sqlite2. Host: /Users/arpitasaha/airflow/dags/db/DestinationDB.db, Port: None, Schema: /Users/arpitasaha/airflow/dags/db/DestinationDB.db, Login: None, Password: None, extra: None
+[2020-10-19 22:22:18,102] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-10-19 22:22:18,106] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=tutorial, task_id=Destinationdb_Upsert, execution_date=20201019T163015, start_date=20201019T165217, end_date=20201019T165218
+[2020-10-19 22:22:22,733] {local_task_job.py:102} INFO - Task exited with return code 0

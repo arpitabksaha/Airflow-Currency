@@ -1,0 +1,15 @@
+[2020-10-29 10:47:33,912] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: tutorial.api_call 2020-10-29T05:16:43.319400+00:00 [queued]>
+[2020-10-29 10:47:33,927] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: tutorial.api_call 2020-10-29T05:16:43.319400+00:00 [queued]>
+[2020-10-29 10:47:33,927] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-29 10:47:33,927] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-10-29 10:47:33,927] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-10-29 10:47:33,935] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): api_call> on 2020-10-29T05:16:43.319400+00:00
+[2020-10-29 10:47:33,937] {standard_task_runner.py:54} INFO - Started process 82191 to run task
+[2020-10-29 10:47:33,968] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'tutorial', 'api_call', '2020-10-29T05:16:43.319400+00:00', '--job_id', '284', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/tutorial.py', '--cfg_path', '/var/folders/4j/yctg8njd19g2873bfk914jqw0000gn/T/tmpjjp1ibxv']
+[2020-10-29 10:47:33,969] {standard_task_runner.py:78} INFO - Job 284: Subtask api_call
+[2020-10-29 10:47:39,001] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: tutorial.api_call 2020-10-29T05:16:43.319400+00:00 [running]> Arpitas-MacBook-Pro.local
+[2020-10-29 10:47:45,023] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-10-29 10:47:45,027] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=tutorial, task_id=api_call, execution_date=20201029T051643, start_date=20201029T051733, end_date=20201029T051745
+[2020-10-29 10:47:48,993] {local_task_job.py:102} INFO - Task exited with return code 0
